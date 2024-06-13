@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Penilaian Siswa</title>
+    <link rel="stylesheet" href="Tidakstyle.css">
+</head>
+<body>
+    <h1>Penilaian Siswa</h1>
+    <form id="nilaiForm">
+        <h2>Mata Pelajaran</h2>
+        <!-- Daftar mata pelajaran -->
+        <label for="bindo">Bahasa Indonesia:</label>
+        <input type="number" id="bindo" name="bindo" required><br>
+
+        <label for="pkk">PKK:</label>
+        <input type="number" id="pkk" name="pkk" required><br>
+
+        <label for="agama">Agama:</label>
+        <input type="number" id="agama" name="agama" required><br>
+
+        <label for="matematika">Matematika:</label>
+        <input type="number" id="matematika" name="matematika" required><br>
+
+        <label for="pjok">PJOK:</label>
+        <input type="number" id="pjok" name="pjok" required><br>
+
+        <label for="aij">AIJ:</label>
+        <input type="number" id="aij" name="aij" required><br>
+
+        <label for="wan">WAN:</label>
+        <input type="number" id="wan" name="wan" required><br>
+
+        <label for="asj">ASJ:</label>
+        <input type="number" id="asj" name="asj" required><br>
+
+        <label for="binggris">Bahasa Inggris:</label>
+        <input type="number" id="binggris" name="binggris" required><br>
+
+        <label for="pkn">PKN:</label>
+        <input type="number" id="pkn" name="pkn" required><br>
+
+        <label for="tlj">TLJ:</label>
+        <input type="number" id="tlj" name="tlj" required><br>
+
+        <h2>Penilaian Lainnya</h2>
+        <label for="kehadiran">Kehadiran:</label>
+        <input type="number" id="kehadiran" name="kehadiran" required><br>
+
+        <label for="tugas">Nilai Tugas:</label>
+        <input type="number" id="tugas" name="tugas" required><br>
+
+        <label for="mid">Nilai Mid Semester:</label>
+        <input type="number" id="mid" name="mid" required><br>
+
+        <label for="semester">Nilai Semester:</label>
+        <input type="number" id="semester" name="semester" required><br>
+
+        <button type="button" onclick="saveNilai()">Simpan dan Lihat Hasil</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Biodata Siswa</title>
+    <link rel="stylesheet" href="Tidakstyle.css">
+</head>
+<body>
+    <h1>Biodata Siswa</h1>
+    <form id="biodataForm">
+        <label for="nama">Nama Siswa:</label>
+        <input type="text" id="nama" name="nama" required><br>
+
+        <label for="nisn">NISN:</label>
+        <input type="text" id="nisn" name="nisn" required><br>
+
+        <label for="ttl">Tempat Tanggal Lahir:</label>
+        <input type="text" id="ttl" name="ttl" required><br>
+
+        <label for="alamat">Alamat:</label>
+        <input type="text" id="alamat" name="alamat" required><br>
+
+        <button type="button" onclick="saveBiodata()">Simpan dan Lanjutkan</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
